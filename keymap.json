@@ -17,6 +17,7 @@
       "ctrl-g": "workspace::ToggleLeftDock",
       "ctrl-t": "workspace::ToggleBottomDock",
       "space r": "projects::OpenRecent",
+      "space r n": "editor::Rename",
       "alt-j": "editor::MoveLineDown",
       "alt-k": "editor::MoveLineUp",
       "space v": "outline::Toggle",
