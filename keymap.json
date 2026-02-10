@@ -1,0 +1,67 @@
+[
+  {
+    "context": "Editor && vim_mode == normal",
+    "bindings": {
+      "s f": "file_finder::Toggle",
+      "s g": "pane::DeploySearch",
+      "space p v": "project_panel::ToggleFocus",
+      "space a": "agent::ToggleFocus",
+      "space f": "zed::ToggleFullScreen",
+      "space o": "workspace::Open",
+      "space w": "workspace::Save",
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-j": "workspace::ActivatePaneDown",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-l": "workspace::ActivatePaneRight",
+      "ctrl-b": "workspace::ToggleAllDocks",
+      "ctrl-g": "workspace::ToggleLeftDock",
+      "ctrl-t": "workspace::ToggleBottomDock",
+      "space r": "projects::OpenRecent",
+      "alt-j": "editor::MoveLineDown",
+      "alt-k": "editor::MoveLineUp",
+      "space v": "outline::Toggle",
+      "space b": "editor::ToggleBreakpoint"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "ctrl-o": "outline::Toggle",
+      "ctrl-b": "workspace::ToggleAllDocks",
+      "ctrl-g": "workspace::ToggleLeftDock",
+      "ctrl-t": "workspace::ToggleBottomDock",
+      "alt-j": "editor::MoveLineDown",
+      "alt-k": "editor::MoveLineUp",
+      "ctrl-h": "workspace::ActivatePaneLeft",
+      "ctrl-j": "workspace::ActivatePaneDown",
+      "ctrl-k": "workspace::ActivatePaneUp",
+      "ctrl-l": "workspace::ActivatePaneRight"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      "ctrl-b": "workspace::ToggleZoom",
+      "ctrl-g": "workspace::ToggleRightDock",
+      "ctrl-t": "workspace::ToggleBottomDock",
+      "alt-j": "editor::MoveLineDown",
+      "alt-k": "editor::MoveLineUp",
+      "space v": "outline::Toggle"
+      // "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == visual",
+    "bindings": {
+      "alt-j": "editor::MoveLineDown",
+      "alt-k": "editor::MoveLineUp",
+      "space v": "outline::Toggle"
+    }
+  },
+  {
+    "context": "ProjectPanel",
+    "bindings": {
+      "ctrl-f": "project_panel::NewFile"
+    }
+  }
+]
